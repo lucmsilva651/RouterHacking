@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Space+Mono&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Roboto Serif", serif;
+  font-family: "Fira Code", monospace;
   font-smooth: always;
 }
 
@@ -74,7 +73,7 @@ header nav ul li a:hover {
 .markdown-body samp,
 .markdown-body tt,
 pre code.hljs {
-  font-family: "Space Mono", monospace !important;
+  font-family: "Fira Code", monospace !important;
 }
 
 footer {

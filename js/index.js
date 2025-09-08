@@ -9,7 +9,7 @@ const getParam = (p) => {
   return urlParams.get(found);
 };
 
-const actualPage = decodeURIComponent(getParam(["page", "p", "md"]) || "home");
+const actualPage = decodeURIComponent(getParam(["roteador", "router", "r"]) || "home");
 
 async function loadElements(urls) {
   const promises = urls.map(async url => {
