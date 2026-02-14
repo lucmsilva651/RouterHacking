@@ -56,6 +56,23 @@ Essa falha foi corrigida em atualizações posteriores de firmware. Entretanto, 
 
 ## Software
 
+### Flash layout
+
+```
+XDSL>show system flashlayout
+Flash Layout:
+Flash Start Address              : 0xb4000000   End Address      : 0xb4800000 Size   : 8MB
+Flash Run Image Start Address    : 0xb4010000
+Flash Backup Image Address       : 0xb4400000   Offset           : 4MB
+Flash HW Config Address          : 0xb4005000   End Address      : 0xb4006000 Size   : 4KB
+Flash Config Address             : 0xb47f0000   End Address      : 0xb4800000 Size   : 64KB
+Flash Backup Config Address      : 0xb47e0000   End Address      : 0xb47f0000 Size   : 64KB
+Flash file start Address         : 0xb43f8000   End Address      : 0xb4400000 Size   : 32KB
+Flash unused start Address       : 0xb42e2000   End Address      : 0xb43f8000 Size   : 1112KB
+Flash Possible Max Firmware      : 3997696[ 3904KB ]
+Flash Defined  Max Firmware      : 4063232[ 3968KB ]
+```
+
 ### Desbloqueio das Configurações Avançadas
 
 > Estes passos permitem restaurar o acesso às páginas ocultas de configuração avançada do modem. Requer conhecimentos básicos em **edição de arquivos XML** e **operações de firmware**.
